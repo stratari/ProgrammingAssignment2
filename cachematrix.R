@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## First create the special vector with the get and set methods
+## Then calculate the inverse if the matrix has changed
 
-## Write a short comment describing this function
+## special vector with set and get methods
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## calculates the inverse of the special vector
 
 cacheSolve <- function(x, ...) {
   i <- x$getinverse()
